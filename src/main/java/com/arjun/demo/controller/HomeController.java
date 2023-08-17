@@ -21,4 +21,9 @@ public class HomeController {
         return "Welcome Admin";
     }
 
-}
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    }
